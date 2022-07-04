@@ -1,6 +1,6 @@
 main{
-  padding: 90px 70px 70px 180px;
-  flex-grow: 1;
+  padding: 53px 71px 71px 167px;
+   height: 400p;
   position: relative;
 }
 .parte1{
@@ -8,15 +8,23 @@ main{
   flex-direction: column;
   margin-top: 100px;
  }
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
  .parte1 span{
-  background:  linear-gradient( to right, #AB01C6, #FA01C6);
+  background:  linear-gradient( to right, #ac01c67a, #fa01c49c);
   padding: 10px;
   width: 150px;
   border-radius: 7px;
   margin-bottom: 20px;
   color: #fff;
   text-align: center;
+  transition: 0.4s;
  
+ }
+ .parte1 span:hover{
+  transform: scale(1.1);
  }
  .parte1 h1{
   font-size: 2.9rem;
@@ -35,9 +43,14 @@ main{
   margin-top: 10px;
   padding: 10px;
   height: 90px;
+  cursor: pointer;
+  transition: all 0.3s;
+ }
+ .back img:hover{
+ transform: scale(1.1);
  }
  .parte2{
   position: absolute;
-  top: 10%;
+  top: 1%;
   right: 5%;
-  background-size: cover;}
+  }

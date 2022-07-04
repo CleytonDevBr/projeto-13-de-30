@@ -1,5 +1,5 @@
 header{
- 
+  padding-bottom:  70px;
   height: 25px;
 }
 .logo img{
@@ -19,19 +19,33 @@ nav{
 nav ul{
   display: flex;
   text-align: center;
-  margin-right: 600px;
+  margin-right: 400px;
   
  
 }
 nav ul li{
-  margin-left: 30px;
+  margin-left: 80px;
   list-style: none;
+  padding: 1px;
  
   
 }
 nav ul li a{
+ 
+  padding: 10px;
+  cursor: pointer;
   color: black;
+  transition: all 0.4s;
+}
+nav ul li a:hover{
+  color:#ac01c67a ;
+  
 }
 nav img{
   height: 40px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+nav img:hover{
+ transform: scale(2);
 }
