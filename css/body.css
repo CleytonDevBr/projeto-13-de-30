@@ -1,0 +1,11 @@
+body{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(../img/background.png);
+  padding: 50px 40px 10px 40px;
+  background-size: cover;
+}
+
+
+
