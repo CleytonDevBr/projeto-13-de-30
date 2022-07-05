@@ -1,6 +1,8 @@
 header{
   padding-bottom:  70px;
   height: 25px;
+ margin: 0;
+ 
 }
 .logo img{
  height: 50px;
@@ -9,18 +11,20 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+ 
+  
 }
 
 nav{
   display: flex;
   align-items: center;
   
+  
 }
 nav ul{
   display: flex;
   text-align: center;
   margin-right: 400px;
-  
  
 }
 nav ul li{
@@ -48,4 +52,48 @@ nav img{
 }
 nav img:hover{
  transform: scale(2);
+}
+@media (max-width: 1300px){
+  nav ul {
+  margin-left: -200px;
+  
+  }
+  nav img{
+    margin-left: -300px;
+  }
+  .logo img{
+    height: 40px;
+    padding-left: 30px;
+  }
+}
+@media (max-width:965px){
+  nav ul{ display: none;}
+  nav img{
+   margin-left: 100px;
+  }
+  .burguer{
+    line-height: 40px;
+  }
+  .one {
+    background-color: aliceblue;
+    width: 40px;
+    height: 2px;
+    margin-bottom: 10px;
+  }
+  .two{
+    background-color: aliceblue;
+    width: 40px;
+    height: 2px;
+    margin-bottom: 10px;
+  }
+  .three{
+    background-color: aliceblue;
+    width: 40px;
+    height: 2px;
+  }
+
+  .burguer.on{
+
+
+  }
 }
